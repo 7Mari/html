@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens</title>
+    <style>
+        .tabela{
+            width: 30%;
+            text-align: center;      
+            border-collapse: collapse;    
+        }
+        .img{
+            max-width: 250px;
+            min-width: 250px;
+        }
+        .cabecalho{
+            background-color: rgb(197, 197, 197);
+        }
+    </style>
+</head>
+<body>
+    <h1>Portal de Informações sobre Viagens</h1>
+    <p>Deseja saber mais sobre os destinos? <a href="https://www.decolar.com/" target="_blank">Clique aqui para ir a seção de destinos.</a></p>
+    <p>Para reservar passagens, visite nosso site parceiro <a href="https://www.expedia.com.br/" target="_blank">Expedia.</a></p>
+    <h2>Calendário de Promoções</h2>
+    <table class = "tabela"  border="2">
+        <tr class="cabecalho">
+            <th>Mes</th>
+            <th>Promoção</th>
+            <th>Desconto</th>
+        </tr>
+        <tr>
+            <td>Janeiro</td>
+            <td>Promoção de Verão</td>
+            <td>30%</td>
+        </tr>
+        <tr>
+            <td>Julho</td>
+            <td>Promoção de Inverno</td>
+            <td>25%</td>
+        </tr>
+        <tr>
+            <td>Dezembro</td>
+            <td>Fim de Ano</td>
+            <td>40%</td>
+        </tr>
+    </table>
+
+    <h2>Imagens dos Destinos</h2>
+    <img class="img" src="https://www.dicasdonossobrasil.com.br/wp-content/uploads/2018/10/Macei%C3%B3-Destaque-4.jpg" alt="Praia">
+    <p>Praia Tropical - Um dos destinos mais procurados</p>
+    <br></br>
+    <img class="img" src="https://th.bing.com/th/id/OIP.jadnpjv1k2jKPxGRYi3uygHaEK?w=748&h=421&rs=1&pid=ImgDetMain" alt="Montanha">
+    <p>Praia Tropical - Um dos destinos mais procurados</p>
+    <br></br>
+    
+    <h2>Destinos Populares</h2>
+    <p><img class="img" src="https://despachatur.com.br/wp-content/uploads/2023/10/shutterstock_1471556480-1536x1152-1.jpg" alt="Rio de Janeiro">  Rio de Janeiro</p>
+    <p>Cidade famosa por suas praias, como Copacabana e Ipanema, e pelo Cristo Redentor.</p>
+    <p><img class="img" src="https://travelbusinessclass.com/assets/image/offer_page_48/bac76/city-Paris__origin.webp" alt="Paris">  Paris</p>
+    <p>Capital da França, conhecida pela Torre Eiffel, museus e gastronomia refinada</p>
+    <p><img class="img" src="https://th.bing.com/th/id/OIP.pmclHmtBHw8nx-jZHHJDjwAAAA?rs=1&pid=ImgDetMain" alt="Nova Iorque">  Nova Iorque</p>
+    <p>Cidade vibrante nos EUA, famosa por sua vida cultural, Times Square e a Estátua da Liberdade</p>
+
+    <h2>Entre em Contato</h2>
+    <p>Nome Completo</p>
+    <input type="text">
+    <p>E-mail:</p>
+    <input type="text">
+
+    <p>Destino Preferido:</p>
+        <select>
+          <option>Rio de Janeiro</option>
+          <option>Paris</option>
+          <option>Nova Iorque</option>
+        </select>
+      
+      <p>Sua mensagem:</p>
+      <textarea id="texto-longo" rows="8" cols="50"></textarea>
+      <br></br>
+      <input type="button" value="Enviar">
+      <br></br>
+      <a href="index.html">Voltar ao Topo</a>
+
+</body>
+</html>
