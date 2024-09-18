@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste3</title>
+</head>
+<body bgcolor="a26aba" text="white">
+    <p align="center"> <big>Miau</big></p>
+
+    <script>
+        alert("Verifique sua proteção, este site não é confiável.")
+    </script>
+    
+
+    <video src="855029-hd_1920_1080_30fps.mp4" width="640" height="480" controls>
+        Seu brower não suporta esse vídeo HTML5.
+    </video>
+
+    <audio controls src="happy-happy-happy-cat.mp3">
+        <source src="musica.ogg" type="audio/ogg                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ">
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <br>
+    <input type="text" value="Gato 1">
+    <br>
+    <input type="text" value="Gato 2">
+    <div><input type="text" value="Gato 3"></div>
+    <div><input type="text" value="Gato 4"></div>
+
+    
+
+</body>
+</html>
