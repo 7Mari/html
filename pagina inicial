@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="ffe0b5" text = "69e0c9">
+
+ <nav>
+    <a href="#">Página</a>
+    <a href="#">Página</a>
+    <a href="#">Página</a>
+    <a href="#">Página</a>
+</nav>
+
+css//
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(180, 91, 75);
+    padding: 20px;
+    box-shadow: 0px 7px 9px rgba(red, green, blue, alpha);
+}
+
+nav > a{
+    color: aquamarine;
+    padding: 10px;
+    text-decoration: solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: #8cb8b4;
+    color: #7bfde1;
+    transition-duration:.5s;
+}
+
+
+ 
+
+    
+
+    
+    
+</body>
+</html>
